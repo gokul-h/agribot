@@ -1,0 +1,34 @@
+[0.024s] Invoking command in '/home/gokul/Desktop/agribot_p1/build/agri_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gokul/Desktop/agribot_p1/build/agri_bot -- -j8 -l8
+[0.048s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.269s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.365s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.368s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.369s] -- Added test 'lint_cmake' to check CMake code style
+[0.369s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.371s] -- Added test 'xmllint' to check XML markup files
+[0.372s] -- Configuring done
+[0.376s] -- Generating done
+[0.377s] -- Build files have been written to: /home/gokul/Desktop/agribot_p1/build/agri_bot
+[0.450s] Invoked command in '/home/gokul/Desktop/agribot_p1/build/agri_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gokul/Desktop/agribot_p1/build/agri_bot -- -j8 -l8
+[0.492s] Invoking command in '/home/gokul/Desktop/agribot_p1/build/agri_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gokul/Desktop/agribot_p1/build/agri_bot
+[0.502s] -- Install configuration: ""
+[0.502s] -- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/config
+[0.502s] -- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/launch
+[0.503s] -- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/launch/controller.yaml
+[0.503s] -- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/launch/cyld_robot.launch.py
+[0.503s] -- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/launch/urdf.rviz
+[0.503s] -- Installing: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/meshes
+[0.504s] -- Installing: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/meshes/Steering 2.stl
+[0.504s] -- Installing: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/meshes/Shaft.stl
+[0.504s] -- Installing: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/meshes/Spring.stl
+[0.509s] -- Installing: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/meshes/Steering.stl
+[0.509s] -- Installing: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/meshes/Chain.stl
+[0.510s] -- Installing: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/meshes/Frame.stl
+[0.511s] -- Installing: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/meshes/Wheel.stl
+[0.513s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.513s]   file INSTALL cannot find
+[0.513s]   "/home/gokul/Desktop/agribot_p1/src/agri_bot/models": No such file or
+[0.513s]   directory.
+[0.514s] 
+[0.514s] [0m
+[0.515s] Invoked command in '/home/gokul/Desktop/agribot_p1/build/agri_bot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gokul/Desktop/agribot_p1/build/agri_bot

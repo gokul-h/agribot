@@ -1,0 +1,5 @@
+your_amazing_node:
+  ros__parameters:
+    z_axis: 70
+    r_axis: 70
+    theta: 360

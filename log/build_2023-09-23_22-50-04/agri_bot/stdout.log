@@ -1,0 +1,37 @@
+-- Install configuration: ""
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/config
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/launch
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/launch/controller.yaml
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/launch/cyld_robot.launch.py
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/launch/urdf.rviz
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/meshes
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/meshes/Steering 2.stl
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/meshes/Shaft.stl
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/meshes/Spring.stl
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/meshes/Steering.stl
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/meshes/Chain.stl
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/meshes/Frame.stl
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/meshes/Wheel.stl
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/params
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/params/robot_dim.yaml
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/rviz
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/rviz/rviz_basic_settings.rviz
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/src
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/src/angle_publish.py
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/urdf
+-- Installing: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/urdf/marker.urdf
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/ament_index/resource_index/package_run_dependencies/agri_bot
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/ament_index/resource_index/parent_prefix_path/agri_bot
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/environment/ament_prefix_path.sh
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/environment/path.sh
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/environment/path.dsv
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/local_setup.bash
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/local_setup.sh
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/local_setup.zsh
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/local_setup.dsv
+-- Installing: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/package.dsv
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/ament_index/resource_index/packages/agri_bot
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/cmake/agri_botConfig.cmake
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/cmake/agri_botConfig-version.cmake
+-- Up-to-date: /home/gokul/Desktop/agribot_p1/install/agri_bot/share/agri_bot/package.xml

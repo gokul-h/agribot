@@ -1,0 +1,9 @@
+/home/gokul/Desktop/agribot_p1/build/agri_bot/CMakeFiles/uninstall.dir
+/home/gokul/Desktop/agribot_p1/build/agri_bot/CMakeFiles/agri_bot_uninstall.dir
+/home/gokul/Desktop/agribot_p1/build/agri_bot/CMakeFiles/test.dir
+/home/gokul/Desktop/agribot_p1/build/agri_bot/CMakeFiles/edit_cache.dir
+/home/gokul/Desktop/agribot_p1/build/agri_bot/CMakeFiles/rebuild_cache.dir
+/home/gokul/Desktop/agribot_p1/build/agri_bot/CMakeFiles/list_install_components.dir
+/home/gokul/Desktop/agribot_p1/build/agri_bot/CMakeFiles/install.dir
+/home/gokul/Desktop/agribot_p1/build/agri_bot/CMakeFiles/install/local.dir
+/home/gokul/Desktop/agribot_p1/build/agri_bot/CMakeFiles/install/strip.dir

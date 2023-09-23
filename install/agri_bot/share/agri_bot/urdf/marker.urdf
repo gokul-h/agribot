@@ -1,0 +1,264 @@
+<?xml version="1.0" ?>
+<robot name="marker" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+
+<link name="world"/>
+<joint name="base_joint" type="fixed">
+    <parent link="world"/>
+    <child link="base_link" />
+    <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+</joint>
+
+<link name="base_link">
+<visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Frame.stl" />
+    </geometry>
+    <material name="Red">
+    <color rgba="${255/255} ${0/255} ${0/255} 1.0"/>
+    </material>
+</visual>
+
+<collision>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Frame.stl" />
+    </geometry>
+</collision>
+</link>
+
+<link name="shaft_link">
+<visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Shaft.stl" />
+    </geometry>
+    <material name="Blue">
+        <color rgba="${0/255} ${0/255} ${255/255} 1.0"/>
+    </material>
+</visual>
+
+<collision>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Frame.stl" />
+    </geometry>
+</collision>
+
+</link>
+
+
+<joint name="shaft_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="shaft_link" />
+    <origin xyz="-2.16252 0 -0.854427" rpy="0 0 0"/>
+    <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<link name="wheel_l">
+<visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Wheel.stl" />
+    </geometry>
+    <material name="Red">
+    <color rgba="${0/255} ${0/255} ${255/255} 1.0"/>
+    </material>
+</visual>
+
+<collision>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Wheel.stl" />
+    </geometry>
+</collision>
+
+</link>
+
+<joint name="wl_joint" type="fixed">
+    <parent link="shaft_link"/>
+    <child link="wheel_l" />
+    <origin xyz="0 3.71958 0" rpy="1.57 0 0"/>
+    <axis xyz="0.0 0.0 0.0"/>
+</joint>
+
+<link name="wheel_r">
+<visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Wheel.stl" />
+    </geometry>
+    <material name="Red">
+    <color rgba="${0/255} ${0/255} ${255/255} 1.0"/>
+    </material>
+</visual>
+
+<collision>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Wheel.stl" />
+    </geometry>
+</collision>
+
+</link>
+
+<joint name="wr_joint" type="fixed">
+    <parent link="shaft_link"/>
+    <child link="wheel_r" />
+    <origin xyz="0 -3.71958 0" rpy="1.57 0 0"/>
+    <axis xyz="0.0 0.0 0.0"/>
+</joint>
+
+<link name="steering_shaft">
+<visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Steering.stl" />
+    </geometry>
+    <material name="Red">
+    <color rgba="${0/255} ${0/255} ${255/255} 1.0"/>
+    </material>
+</visual>
+
+<collision>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Steering.stl" />
+    </geometry>
+</collision>
+
+</link>
+
+<joint name="steer_joint" type="prismatic">
+    <parent link="base_link"/>
+    <child link="steering_shaft" />
+    <origin xyz="2.16633 0.030272 -0.462351" rpy="1.57 0 1.57"/>
+    <limit effort="30" velocity="1.0" lower="-0.2" upper="0.2" />
+    <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<link name="steering_clamp">
+<visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Steering 2.stl" />
+    </geometry>
+    <material name="Red">
+    <color rgba="${0/255} ${0/255} ${255/255} 1.0"/>
+    </material>
+</visual>
+
+<collision>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Steering 2.stl" />
+    </geometry>
+</collision>
+
+</link>
+
+<joint name="steer_clamp_joint" type="fixed">
+    <parent link="steering_shaft"/>
+    <child link="steering_clamp" />
+    <origin xyz="3.2734 0 0.3586" rpy="3.14 -1.57 0"/>
+
+</joint>
+
+<joint name="steer_clamp_mimic_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="steering_clamp" />
+    <origin xyz="2.5249 3.3037 -0.46732" rpy="-1.57 0 0"/>
+    <axis xyz="0 1 0"/>
+    <mimic joint="steer_joint" multiplier="2.5" offset="0" />
+</joint>
+
+
+<link name="steering_clamp_two">
+<visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Steering 2.stl" />
+    </geometry>
+    <material name="Red">
+    <color rgba="${0/255} ${0/255} ${255/255} 1.0"/>
+    </material>
+</visual>
+
+<collision>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Steering 2.stl" />
+    </geometry>
+</collision>
+
+</link>
+
+<joint name="steer_clamp_two__joint" type="fixed">
+    <parent link="steering_shaft"/>
+    <child link="steering_clamp_two" />
+    <origin xyz="-3.2734 0 0.3586" rpy="3.14 -1.57 0"/>
+</joint>
+
+<joint name="steer_clamp_two_mimic_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="steering_clamp_two" />
+    <origin xyz="2.5249 -3.3037 -0.46732" rpy="1.57 0 0"/>
+    <axis xyz="0 1 0"/>
+    <mimic joint="steer_joint" multiplier="-2.5" offset="0" />
+</joint>
+
+<link name="wheel_back_l">
+<visual>
+    <origin xyz="0 0 0" rpy="0 1.57 0"/>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Wheel.stl" />
+    </geometry>
+    <material name="Red">
+    <color rgba="${0/255} ${0/255} ${255/255} 1.0"/>
+    </material>
+</visual>
+
+<collision>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Wheel.stl" />
+    </geometry>
+</collision>
+
+</link>
+
+<joint name="wlb_joint" type="continuous">
+    <parent link="steering_clamp"/>
+    <child link="wheel_back_l" />
+    <origin xyz="0.2 0 0.4" rpy="3.14 -1.57 0"/>
+    <axis xyz="1.0 0.0 0.0"/>
+    <mimic joint="shaft_joint" multiplier="1" offset="0" />
+</joint>
+
+<link name="wheel_back_r">
+<visual>
+    <origin xyz="0 0 0" rpy="0 1.57 0"/>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Wheel.stl" />
+    </geometry>
+    <material name="Red">
+    <color rgba="${0/255} ${0/255} ${255/255} 1.0"/>
+    </material>
+</visual>
+
+<collision>
+    <geometry>
+        <mesh filename="package://agri_bot/meshes/Wheel.stl" />
+    </geometry>
+</collision>
+
+</link>
+
+<joint name="wlr_joint" type="continuous">
+    <parent link="steering_clamp_two"/>
+    <child link="wheel_back_r" />
+    <origin xyz="0.2 0 0.4" rpy="3.14 -1.57 0"/>
+    <axis xyz="-1.0 0.0 0.0"/>
+    <mimic joint="shaft_joint" multiplier="1" offset="0" />
+</joint>
+
+
+
+
+
+
+
+</robot>

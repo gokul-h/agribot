@@ -1,0 +1,2 @@
+Invoking command in '/home/gokul/Desktop/agribot_p1/build/cyld_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gokul/Desktop/agribot_p1/src/agri_bot -DCMAKE_INSTALL_PREFIX=/home/gokul/Desktop/agribot_p1/install/cyld_robot
+Invoked command in '/home/gokul/Desktop/agribot_p1/build/cyld_robot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gokul/Desktop/agribot_p1/src/agri_bot -DCMAKE_INSTALL_PREFIX=/home/gokul/Desktop/agribot_p1/install/cyld_robot

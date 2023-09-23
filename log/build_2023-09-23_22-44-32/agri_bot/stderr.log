@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/gokul/Desktop/agribot_p1/src/agri_bot/models": No such file or
+  directory.
+
+[0m

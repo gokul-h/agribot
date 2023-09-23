@@ -1,0 +1,28 @@
+[0.024s] Invoking command in '/home/gokul/Desktop/agribot_p1/build/cyld_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gokul/Desktop/agribot_p1/src/agri_bot -DCMAKE_INSTALL_PREFIX=/home/gokul/Desktop/agribot_p1/install/cyld_robot
+[0.156s] -- The C compiler identification is GNU 11.4.0
+[0.269s] -- The CXX compiler identification is GNU 11.4.0
+[0.281s] -- Detecting C compiler ABI info
+[0.365s] -- Detecting C compiler ABI info - done
+[0.379s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.379s] -- Detecting C compile features
+[0.380s] -- Detecting C compile features - done
+[0.385s] -- Detecting CXX compiler ABI info
+[0.495s] -- Detecting CXX compiler ABI info - done
+[0.507s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.507s] -- Detecting CXX compile features
+[0.508s] -- Detecting CXX compile features - done
+[0.516s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.779s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.912s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.005s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[1.006s]   ament_package_xml() package name 'cyld_robot' in '/package.xml' does not
+[1.006s]   match current PROJECT_NAME 'agri_bot'.  You must call project() with the
+[1.006s]   same package name before.
+[1.006s] Call Stack (most recent call first):
+[1.006s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.006s]   CMakeLists.txt:38 (ament_lint_auto_find_test_dependencies)
+[1.006s] 
+[1.006s] [0m
+[1.007s] -- Configuring incomplete, errors occurred!
+[1.007s] See also "/home/gokul/Desktop/agribot_p1/build/cyld_robot/CMakeFiles/CMakeOutput.log".
+[1.011s] Invoked command in '/home/gokul/Desktop/agribot_p1/build/cyld_robot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gokul/Desktop/agribot_p1/src/agri_bot -DCMAKE_INSTALL_PREFIX=/home/gokul/Desktop/agribot_p1/install/cyld_robot

@@ -1,0 +1,6 @@
+Invoking command in '/home/gokul/Desktop/agribot_p1/build/agri_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gokul/Desktop/agribot_p1/src/agri_bot -DCMAKE_INSTALL_PREFIX=/home/gokul/Desktop/agribot_p1/install/agri_bot
+Invoked command in '/home/gokul/Desktop/agribot_p1/build/agri_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gokul/Desktop/agribot_p1/src/agri_bot -DCMAKE_INSTALL_PREFIX=/home/gokul/Desktop/agribot_p1/install/agri_bot
+Invoking command in '/home/gokul/Desktop/agribot_p1/build/agri_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gokul/Desktop/agribot_p1/build/agri_bot -- -j8 -l8
+Invoked command in '/home/gokul/Desktop/agribot_p1/build/agri_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gokul/Desktop/agribot_p1/build/agri_bot -- -j8 -l8
+Invoking command in '/home/gokul/Desktop/agribot_p1/build/agri_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gokul/Desktop/agribot_p1/build/agri_bot
+Invoked command in '/home/gokul/Desktop/agribot_p1/build/agri_bot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gokul/Desktop/agribot_p1/build/agri_bot
