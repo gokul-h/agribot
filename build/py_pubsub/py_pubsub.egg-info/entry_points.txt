@@ -1,3 +1,0 @@
-[console_scripts]
-listener = py_pubsub.angles_server:main
-
